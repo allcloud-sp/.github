@@ -1,12 +1,58 @@
-## Hi there 👋
+# 📦 Normas de repositorios de la organización
 
-<!--
+Este documento define la **nomenclatura obligatoria** y reglas básicas para la creación de repositorios.
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# 🏷️ Nomenclatura obligatoria
+
+Todos los repositorios deben seguir este formato:
+
+---
+
+## 🔤 Componentes del nombre
+
+### 1. tipo (obligatorio)
+
+Define el tipo de repositorio:
+
+- 020 → Microsoft Business Central / NAV
+- 080 → Conectores
+- `int` → integraciones con sistemas externos
+- `tool` → herramientas internas
+- `lib` → librerías reutilizables
+
+---
+
+### 2. cliente (obligatorio)
+
+Nombre corto del cliente o sistema:
+
+- pool
+- fabrikam
+- northwind
+
+Debe ser:
+- en minúsculas
+- sin espacios
+- sin caracteres especiales
+
+---
+
+### 3. proyecto (obligatorio)
+
+Descripción breve del objetivo:
+
+- finanzas
+- tpv
+- edi
+- informes
+
+---
+
+# ⚠️ Reglas importantes
+
+- Todo en minúsculas
+- Separado por guiones (`-`)
+- Sin espacios
+- Sin versiones en el nombre
