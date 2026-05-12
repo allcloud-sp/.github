@@ -17,7 +17,7 @@ Todos los repositorios deben seguir este formato:
 Define el tipo de repositorio:
 
 - `020` → Microsoft Business Central / NAV
-- `080` → Conectores
+- `080` → Todo el resto
   
 ---
 
