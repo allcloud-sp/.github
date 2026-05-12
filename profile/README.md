@@ -16,12 +16,9 @@ Todos los repositorios deben seguir este formato:
 
 Define el tipo de repositorio:
 
-- 020 → Microsoft Business Central / NAV
-- 080 → Conectores
-- `int` → integraciones con sistemas externos
-- `tool` → herramientas internas
-- `lib` → librerías reutilizables
-
+- `020` → Microsoft Business Central / NAV
+- `080` → Conectores
+  
 ---
 
 ### 2. cliente (obligatorio)
@@ -29,13 +26,8 @@ Define el tipo de repositorio:
 Nombre corto del cliente o sistema:
 
 - pool
-- fabrikam
-- northwind
-
-Debe ser:
-- en minúsculas
-- sin espacios
-- sin caracteres especiales
+- aquarium
+- allcloud `si el proyecto es interno`
 
 ---
 
