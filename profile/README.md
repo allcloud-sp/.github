@@ -1,10 +1,11 @@
-📦 Instalación
-🧩 1. GitHub CLI (obligatorio)
+# 📦 Instalación
+
+## 🧩 1. GitHub CLI (obligatorio)
 
 Windows (Winget)
 winget install --id GitHub.cli
 
-🔐 Login en GitHub
+### 🔐 Login en GitHub
 gh auth login
 
 Seleccionar:
@@ -12,19 +13,19 @@ Seleccionar:
   HTTPS
   Login vía navegador (recomendado)
 
-🧩 2. Extensión Visual Studio Code (.vsix)
+## 🧩 2. Extensión Visual Studio Code (.vsix)
   Para usuarios de Visual Studio Code, existe una extensión en formato .vsix que facilita:
 
   Creación de nuevos repositorios en GitHub
   Clonación de repositorios de la organización
 
-📦 Descarga del VSIX
+### 📦 Descarga del VSIX
 
 Descargar la última versión desde:
 
 https://github.com/allcloud-sp/080-allcloud-extension-vscode/releases
 
-📥 Instalación de la extensión
+### 📥 Instalación de la extensión
 
 Opción 1: VS Code
   Abrir Visual Studio Code
