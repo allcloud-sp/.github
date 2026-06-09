@@ -6,12 +6,14 @@ Windows (Winget)
 winget install --id GitHub.cli
 
 ### 🔐 Login en GitHub
+
 gh auth login
 
-Seleccionar:
--GitHub.com
--HTTPS
--Login vía navegador (recomendado)
+
+#### Seleccionar:  
+-GitHub.com  
+-HTTPS  
+-Login vía navegador (recomendado)  
 
 ## 🧩 2. Extensión Visual Studio Code (.vsix)
   Para usuarios de Visual Studio Code, existe una extensión en formato .vsix que facilita:
@@ -27,12 +29,12 @@ https://github.com/allcloud-sp/080-allcloud-extension-vscode/releases
 
 ### 📥 Instalación de la extensión
 
-Opción 1: VS Code
--Abrir Visual Studio Code
--Ir a Extensions
--Menú ...
--Install from VSIX...
--Seleccionar archivo
+#### Opción 1: VS Code  
+-Abrir Visual Studio Code  
+-Ir a Extensions  
+-Menú ...  
+-Install from VSIX...  
+-Seleccionar archivo  
 
 
 
