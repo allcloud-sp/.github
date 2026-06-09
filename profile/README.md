@@ -36,6 +36,9 @@ https://github.com/allcloud-sp/080-allcloud-extension-vscode/releases
 -Install from VSIX...  
 -Seleccionar archivo  
 
+#### Funciones de Visual Studio Code
+- AllCloud: Nuevo repositorio  
+- AllCloud: Clonar repositorio de la org
 
 
 # 📦 Normas de repositorios de la organización
