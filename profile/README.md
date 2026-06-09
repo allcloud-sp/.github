@@ -2,13 +2,14 @@
 
 ## 🧩 1. GitHub CLI (obligatorio)
 
-Windows (Winget)
+Windows (Winget)  
+```bash
 winget install --id GitHub.cli
-
+```
 ### 🔐 Login en GitHub
-
+```bash
 gh auth login
-
+```
 
 #### Seleccionar:  
 -GitHub.com  
