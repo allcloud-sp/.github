@@ -1,12 +1,28 @@
 # 📦 Instalación
 
-## 🧩 1. GitHub CLI (obligatorio)
+## 🧩 1. Git (obligatorio)
+
+Windows (Winget)  
+```bash
+winget install --id Git.Git -e --source winget
+```
+
+### 🔐 Configuración en Git
+
+```bash
+git config --global user.name "Tu Nombre"
+```
+```bash
+git config --global user.email "tu@email.com"
+```
+
+## 🧩 2. GitHub CLI (obligatorio)
 
 Windows (Winget)  
 ```bash
 winget install --id GitHub.cli
 ```
-### 🔐 Login en GitHub
+### 🔐 Login en GitHub CLI
 ```bash
 gh auth login
 ```
@@ -16,7 +32,7 @@ gh auth login
 -HTTPS  
 -Login vía navegador (recomendado)  
 
-## 🧩 2. Extensión Visual Studio Code (.vsix)
+## 🧩 3. Extensión Visual Studio Code (.vsix)
   Para usuarios de Visual Studio Code, existe una extensión en formato .vsix que facilita:
 
   Creación de nuevos repositorios en GitHub
